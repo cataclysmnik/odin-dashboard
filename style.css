@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.whole {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    background-color: #1992d4;
+    color: white;
+    width: 300px;
+    height: 100vh;
+}
+
+.sidebar > .section1 > ul > li > .bx, .section2 > ul > li > .bx {
+    padding-right: 12px;
+}
+
+.logo {
+    padding: 16px;
+    padding-top: 24px;
+    padding-bottom: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.logo > i {
+    padding-right: 4px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+li {
+    padding-bottom: 10px;
+    transition: .2s;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    letter-spacing: 1px;
+    
+}
+
+.topbar > .section1 {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    padding-bottom: 12px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.greetings {
+    display: flex;
+}
+
+.topbar > .section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    padding-top: 0px;
+}
+
+.topbar > .section2 > .greetings > img {
+    height: 80px;
+}
+
+.topbar > .section2 > .greetings > .greetingsName > .greet {
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.topbar > .section2 > .greetings > .greetingsName > .name {
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+
+.main {
+    width: 100vw;
+}
+
+input {
+    width: 50vw;
+    background-color: #ddd;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+i {
+    vertical-align: middle;
+}
+
+.btnGroup {
+    padding-left: 16px
+}
+
+.btnGroup > button {
+    background-color: #1992d4;
+    color: white;
+    border: 2px solid #1992d4;
+    border-radius: 20px;
+    padding: 8px 16px;
+    gap: 32px;
+    margin: 6px;
+    transition: .2s ease-in-out;
+}
+
+.btnGroup > button:hover {
+    background-color: white;
+    color: #1992d4;
+}
